@@ -40,11 +40,13 @@
 			<version>2.6</version>
 		</dependency>
 -->
+<!--
 		<dependency>
 			<groupId>org.apache.maven.plugins</groupId>
 			<artifactId>maven-compiler-plugin</artifactId>
 			<version>3.3</version>
 		</dependency>
+-->
 
 		<dependency>
 			<groupId>org.codehaus.sonar</groupId>
@@ -60,16 +62,16 @@
 
 	</dependencies>
  
-<!--	<build>
+	<build>
 	  <plugins>
 		<plugin>
 			<groupId>org.apache.maven.plugins</groupId>
 			<artifactId>maven-compiler-plugin</artifactId>
-			<version>2.3.2</version>
-			<configuration>
+			<version>3.3</version>
+		<!--	<configuration>
 				<source>1.6</source>
 				<target>1.6</target>
-			</configuration>
+			</configuration> -->
 		</plugin>
 	  </plugins>
 	</build>
