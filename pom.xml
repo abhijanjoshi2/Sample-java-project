@@ -55,8 +55,8 @@
      
 
 		<dependency>
-                        <groupId>org.codehaus.sonar.plugins.pdf-report</groupId>
-			<artifactId>sonarpdf-maven-plugin</artifactId>
+                        <groupId>org.codehaus.sonar-plugins.pdf-report</groupId>
+			<artifactId>sonar-pdfreport-plugin</artifactId>
 			<version>1.3.2</version>
 		</dependency>
 
